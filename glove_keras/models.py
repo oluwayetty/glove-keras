@@ -1,7 +1,12 @@
-import tensorflow.python.keras.backend as k
-from tensorflow.python.keras.layers import Input, Embedding, Dot, Reshape, Add
-from tensorflow.python.keras.models import Model
-from tensorflow.python.keras.optimizers import Adagrad
+# import tensorflow.python.keras.backend as k
+# from tensorflow.python.keras.layers import Input, Embedding, Dot, Reshape, Add
+# from tensorflow.python.keras.models import Model
+# from tensorflow.python.keras.optimizers import Adagrad
+
+import keras.backend as k
+from keras.layers import Input, Embedding, Dot, Reshape, Add
+from keras.models import Model
+from keras.optimizers import Adagrad
 
 from config import CNTRL_EMB, CTX_EMB, CNTRL_BS, CTX_BS
 
